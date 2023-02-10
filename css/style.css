@@ -1,0 +1,307 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:Arial,sans-sarif;
+	
+}
+
+.container{
+	width:1170px;
+	background-color:#fff;
+	padding:30px 25px;
+	margin:0 auto;
+	box-shadow:0 0 5px #ccc;
+}
+
+
+/*  user picture */
+.flex-container{
+	display:flex;
+	
+}
+.user-pic{
+	width:100px;
+}
+
+.user-pic img{
+	width:100%;
+	height:auto;
+}
+/* user picture section ends */
+
+
+/* navigation section */
+.navigations{
+	padding:20px 0 0 15px;
+	margin-left:40px;
+}
+.navigations h3{
+	border-bottom:1px solid gray;
+	width:800px;
+	padding-bottom: 8px;
+	
+}
+
+.nav-menus{
+	display:flex;
+	list-style-type:none;
+	flex-direction:;
+	
+}
+
+.nav-links{
+	display:block;
+	text-decoration:none;
+	padding:10px 25px 10px 0;
+	color:gray;
+	font-size:15px;
+}
+
+/* navigation section ends */
+
+
+/* developer-box starts */
+ .developer-box{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:35px 0;
+    margin-top:15px;
+}
+.developer-box p{
+	color:gray;
+}
+
+.developer-box h1{
+	padding-top:15px;
+} 
+
+.para1{
+	padding-top:15px;
+}
+.developer-box button{
+	margin-top:5px;
+	padding:10px 35px;
+	color:gray;
+	background-color:black;
+	border:2px solid gray;
+	
+	
+}
+/* developer-box ends */
+
+
+/* skill container starts*/
+.skillset{
+	margin-top:20px;
+}
+.myskill img{
+	width:30px;
+}
+
+.myskill{
+	display:flex;
+	margin-top:5px;
+	
+	
+}
+.myskill p{
+	margin-left:10px;
+	font-size:15px;
+}
+
+.skill-list{
+	display:flex;
+	color:gray;
+	list-style-type:none;
+	margin-top:15px;
+	padding-right:10px;
+}
+.listed{
+	padding:10px 100px 10px 0;
+}
+.bottom2{
+	border-bottom:2px solid gray;
+	margin-top:20px;
+}
+/* skill container ends*/
+
+
+/* education container starts here */
+.school{
+	margin-top:20px;
+}
+.study{
+	display:flex;
+	margin-top:10px;
+}
+.study img{
+	width:50px;
+}
+.study p{
+	margin:10px 15px;
+	font-size:15px;
+}
+.course1{
+	    
+	  border-left: 4px solid gray;
+	  margin:20px 0px;
+	  padding-left:10px;
+}
+.course1 h5,h6{
+	color:gray;
+	
+}
+.mark{
+	display:flex;
+	justify-content: space-between;
+    width: 970px;
+    align-items: center;
+	margin-top:20px;
+}
+.percent{
+	
+	
+	background-color:#8080801f;
+	padding: 30px 25px;;
+	} 
+	
+	.course2{
+	    
+	  border-left: 4px solid gray;
+	  margin:20px 0px;
+	  padding-left:10px;
+}
+.course2 h5,h6{
+	color:gray;
+	
+}
+.percent2{
+	
+	background-color:#8080801f;
+	   padding: 30px 25px;
+	} 
+	.mark2{
+	display:flex;
+	justify-content: space-between;
+    width: 970px;
+    align-items: center;
+	margin-top:0px;
+}
+
+.course3{
+	    
+	  border-left: 4px solid gray;
+	  margin:20px 0px;
+	  padding-left:10px;
+}
+.course3 h5,h6{
+	color:gray;
+	
+}
+.percent3{
+	
+	background-color:#8080801f;
+	     padding: 30px 25px;;
+	} 
+	.mark3{
+	display:flex;
+	justify-content: space-between;
+    width: 970px;
+    align-items: center;
+	margin-top:0px;
+}
+.bottom3{
+	border-bottom:2px solid gray;
+	margin-top:10px;
+}
+/* education container ends here */	
+
+
+	
+/* project container starts here */
+.viva{
+	margin-top:20px;
+}
+.creative {
+	display:flex;
+	margin-top:20px;
+	font-size:12px;
+	
+}
+.creative img{
+	width:auto;
+	height:35px;
+}
+.creative p{
+	margin:10px 10px;
+}
+.project1{
+	margin-top:30px;
+	font-size:20px;
+}
+.project2{
+	margin-top:30px;
+}
+.project3{
+	margin-top:30px;
+}
+.block1{
+	border-left: 4px solid gray;
+	  margin:20px 0px;
+	  padding-left:10px;
+	  line-height:1.4;
+	  font-size:12px;
+}
+.block1 h5{
+	color:gray;
+}
+.block1 h4{
+	color:gray;
+}
+.block1 p{
+	color:gray;
+}
+.block2{
+	border-left: 4px solid gray;
+	  margin:20px 0px;
+	  padding-left:10px;
+	  line-height:1.4;
+	   font-size:12px;
+}
+.block3{
+	border-left: 4px solid gray;
+	  margin:20px 0px;
+	  padding-left:10px;
+	  line-height:1.4;
+	   font-size:12px;
+}
+/* project container ends here */
+
+
+/* contact section starts here */
+.contact{
+	line-height:2;
+	margin-top:40px;
+}
+.contact p{
+	font-size:12px;
+}
+/* contact section ends here */
+
+
+/* contact-links section starts here */
+.contact-links{
+	margin-top:25px;
+	
+} 
+
+.contact-links img{
+	width:30px;
+	height:auto;
+	margin-right:35px;
+}
+/* contact-links section ends here */
+
+
